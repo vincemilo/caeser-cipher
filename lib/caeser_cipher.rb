@@ -1,4 +1,4 @@
-def ceaser_cipher(string, shift)
+def caeser_cipher(string, shift)
     
     #convert string to ascii
     ascii = string.bytes
@@ -34,4 +34,4 @@ string = gets.chomp
 print "Enter shift factor: "
 shift = gets.chomp.to_i
 
-ceaser_cipher(string, shift)
+caeser_cipher(string, shift)
